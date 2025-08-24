@@ -52,11 +52,11 @@ Run the following command to launch the CIFAR-10 notebook:
 ---
 ## 📊 Results
 
-**Accuracy**: Up to 20% improvement on CIFAR-10 compared to FedAvg
+- **Accuracy:** Up to 20% improvement on CIFAR-10 compared to FedAvg
 
-**Sustainability**: ~25–50% reduction in carbon emissions per round
+- **Sustainability:** ~25–50% reduction in carbon emissions per round
 
-**Efficiency**: Comparable or faster round times with carbon-aware scheduling
+- **Efficiency:** Comparable or faster round times with carbon-aware scheduling
 ---
 
 ## 📝 Citation
