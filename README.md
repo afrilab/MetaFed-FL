@@ -63,11 +63,14 @@ Run the following command to launch the CIFAR-10 notebook:
 
 If you use this work, please cite:
 
+```bibtex
 @misc{yagiz2025metafed,
-  title={MetaFed: Advancing Privacy, Performance, and Sustainability in Federated Metaverse Systems},
-  author={Yagiz, Muhammet Anil and Cengiz, Zeynep Sude and Goktas, Polat},
-  year={2025}
+  title   = {MetaFed: Advancing Privacy, Performance, and Sustainability in Federated Metaverse Systems},
+  author  = {Yagiz, Muhammet Anil and Cengiz, Zeynep Sude and Goktas, Polat},
+  year    = {2025},
+  note    = {arXiv preprint}
 }
+
 
 ---
 ## 📜 License
