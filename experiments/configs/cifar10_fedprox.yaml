@@ -1,0 +1,45 @@
+# MetaFed-FL CIFAR-10 Experiment Configuration
+# Example configuration for FedProx with CIFAR-10
+
+# General settings
+seed: 42
+device: "auto"
+output_dir: "./results/cifar10_fedprox"
+
+# Federated learning settings
+algorithm: "fedprox"
+num_clients: 100
+clients_per_round: 20
+num_rounds: 200
+local_epochs: 5
+batch_size: 32
+learning_rate: 0.01
+
+# Data settings
+dataset: "cifar10"
+non_iid_alpha: 0.3  # More non-IID for CIFAR-10
+
+# Model settings
+model_name: "simplecnn"
+input_channels: 3  # RGB for CIFAR-10
+num_classes: 10
+
+# Algorithm-specific parameters
+fedprox_mu: 0.01
+
+# Orchestration settings
+orchestrator: "random"
+
+# Green computing
+green_aware: true
+carbon_tracking: true
+
+# Privacy settings
+privacy: "differential"
+epsilon: 8.0
+
+# Evaluation
+eval_frequency: 10
+
+# Logging
+log_level: "INFO"

@@ -1,0 +1,45 @@
+# MetaFed-FL MNIST Experiment Configuration
+# Example configuration for FedAvg with MNIST
+
+# General settings
+seed: 42
+device: "auto"  # auto, cpu, cuda
+output_dir: "./results/mnist_fedavg"
+
+# Federated learning settings
+algorithm: "fedavg"  # fedavg, fedprox, scaffold
+num_clients: 50
+clients_per_round: 10
+num_rounds: 100
+local_epochs: 5
+batch_size: 32
+learning_rate: 0.01
+
+# Data settings
+dataset: "mnist"
+non_iid_alpha: 0.5  # Lower values = more non-IID
+
+# Model settings
+model_name: "simplecnn"
+input_channels: 1  # 1 for MNIST, 3 for CIFAR-10
+num_classes: 10
+
+# Algorithm-specific parameters
+fedprox_mu: 0.01  # Only used for FedProx
+
+# Orchestration settings
+orchestrator: "random"  # random, rl
+
+# Green computing
+green_aware: false
+carbon_tracking: true
+
+# Privacy settings
+privacy: "none"  # none, differential
+epsilon: 1.0  # DP epsilon parameter
+
+# Evaluation
+eval_frequency: 5  # Evaluate every N rounds
+
+# Logging
+log_level: "INFO"
