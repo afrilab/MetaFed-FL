@@ -18,12 +18,6 @@
 ![Conference](https://img.shields.io/badge/conference-pending-yellow)
 ![Framework](https://img.shields.io/badge/framework-federated%20learning-purple)
 
-<!-- Community and Development Badges -->
-![Issues](https://img.shields.io/github/issues/username/MetaFed-FL)
-![Pull Requests](https://img.shields.io/github/issues-pr/username/MetaFed-FL)
-![Stars](https://img.shields.io/github/stars/username/MetaFed-FL)
-![Forks](https://img.shields.io/github/forks/username/MetaFed-FL)
-
 </div>
 
 ---
