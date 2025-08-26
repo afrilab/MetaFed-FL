@@ -232,13 +232,14 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you use MetaFed-FL in your research, please cite:
 
 ```bibtex
-@misc{yagiz2025metafed,
+@misc{yagiz2025metafedadvancingprivacyperformance,
   title={MetaFed: Advancing Privacy, Performance, and Sustainability in Federated Metaverse Systems},
-  author={Yagiz, Muhammet Anil and Cengiz, Zeynep Sude and Goktas, Polat},
+  author={Muhammet Anil Yagiz and Zeynep Sude Cengiz and Polat Goktas},
   year={2025},
-  eprint={arXiv:xxxx.xxxxx},
+  eprint={2508.17341},
   archivePrefix={arXiv},
-  primaryClass={cs.LG}
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2508.17341}
 }
 ```
 
