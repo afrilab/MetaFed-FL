@@ -37,6 +37,38 @@
 
 ---
 
+## 🛠️ Installation
+
+### Prerequisites
+
+- **Python 3.9+**
+- **PyTorch 2.2.2+**
+- **CUDA** (optional, for GPU acceleration)
+
+### Dependencies
+
+```bash
+# Core dependencies
+pip install torch>=2.2.2 torchvision>=0.17.2
+pip install numpy>=1.26.4 pandas>=2.2.2
+pip install matplotlib>=3.9.2 timm>=1.0.8
+
+# Development dependencies
+pip install -r requirements-dev.txt
+```
+
+### Package Installation
+
+```bash
+# Install as editable package
+pip install -e .
+
+# Or install from PyPI (when available)
+pip install metafed-fl
+```
+
+---
+
 ## 🚀 Quick Start
 
 ```bash
@@ -92,38 +124,6 @@ python -m experiments.cifar10.run_experiment
 
 ---
 
-## 🛠️ Installation
-
-### Prerequisites
-
-- **Python 3.9+**
-- **PyTorch 2.2.2+**
-- **CUDA** (optional, for GPU acceleration)
-
-### Dependencies
-
-```bash
-# Core dependencies
-pip install torch>=2.2.2 torchvision>=0.17.2
-pip install numpy>=1.26.4 pandas>=2.2.2
-pip install matplotlib>=3.9.2 timm>=1.0.8
-
-# Development dependencies
-pip install -r requirements-dev.txt
-```
-
-### Package Installation
-
-```bash
-# Install as editable package
-pip install -e .
-
-# Or install from PyPI (when available)
-pip install metafed-fl
-```
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -142,16 +142,6 @@ MetaFed-FL/
 ├── docs/                     # Documentation
 └── scripts/                  # Utility scripts
 ```
-
----
-
-## 📖 Documentation
-
-- [📚 **Full Documentation**](https://metafed-fl.readthedocs.io) - Comprehensive guides and API reference
-- [🚀 **Quick Start Guide**](docs/quickstart.md) - Get up and running in minutes
-- [🧪 **Experiment Guide**](docs/experiments.md) - Detailed experiment instructions
-- [🔧 **API Reference**](docs/api/) - Complete API documentation
-- [🎯 **Examples**](docs/examples/) - Code examples and tutorials
 
 ---
 
