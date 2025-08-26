@@ -90,7 +90,7 @@ setup(
         ],
         "privacy": [
             "opacus>=1.4.0",
-            "crypten>=0.4.0",
+            # "crypten>=0.4.0",  # Commented out due to installation issues
         ],
         "all": [
             "pytest>=7.0.0",
@@ -110,14 +110,14 @@ setup(
             "ipywidgets>=8.0.0",
             "plotly>=5.10.0",
             "opacus>=1.4.0",
-            "crypten>=0.4.0",
+            # "crypten>=0.4.0",  # Commented out due to installation issues
         ]
     },
     entry_points={
         "console_scripts": [
-            "metafed-mnist=experiments.mnist.run_experiment:main",
-            "metafed-cifar10=experiments.cifar10.run_experiment:main",
-            "metafed-benchmark=scripts.run_benchmarks:main",
+            # "metafed-mnist=experiments.mnist.run_experiment:main",  # TODO: Implement main() function
+            # "metafed-cifar10=experiments.cifar10.run_experiment:main",  # TODO: Implement main() function
+            # "metafed-benchmark=scripts.run_benchmarks:main",  # TODO: Create scripts directory
         ],
     },
     include_package_data=True,

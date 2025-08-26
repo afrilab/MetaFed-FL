@@ -6,9 +6,9 @@ build-backend = "setuptools.build_meta"
 name = "metafed-fl"
 version = "1.0.0"
 authors = [
-    {name = "Muhammet Anil Yagiz", email = "author@example.com"},
+    {name = "Muhammet Anil Yagiz", email = "anill.yagiz@gmail.com"},
     {name = "Zeynep Sude Cengiz", email = "author@example.com"},
-    {name = "Polat Goktas", email = "author@example.com"},
+    {name = "Polat Goktas", email = "polatgoktas@gmail.com"},
 ]
 description = "Federated Learning for Metaverse Infrastructures with MARL, Privacy, and Sustainability"
 readme = "README.md"

@@ -285,7 +285,7 @@ jobs:
       run: |
         pip install twine
         twine upload dist/*
-      if: github.repository == 'username/MetaFed-FL'  # Only for main repo
+      if: github.repository == 'afrilab/MetaFed-FL'  # Only for main repo
 
   # Notification
   notify:
