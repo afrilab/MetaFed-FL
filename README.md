@@ -257,7 +257,7 @@ If you use MetaFed-FL in your research, please cite:
 
 <div align="center">
 
-**[🌐 Website](https://metafed.vercel.app)** • **[📖 Docs](https://metafed-fl.readthedocs.io)** • **[💬 Discussions](https://github.com/username/MetaFed-FL/discussions)** • **[🐛 Issues](https://github.com/username/MetaFed-FL/issues)**
+**[🌐 Website](https://metafed.vercel.app)**
 
 *Built with ❤️ for the Federated Learning Community*
 
