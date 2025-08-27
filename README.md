@@ -29,6 +29,8 @@
 **Paper:** *MetaFed: Advancing Privacy, Performance, and Sustainability in Federated Metaverse Systems*  
 **Authors:** Muhammet Anil Yagiz, Zeynep Sude Cengiz, Polat Goktas (2025)
 
+🌐 **[Visit Project Website](https://metafed.vercel.app)** - Interactive demos, tutorials, and detailed documentation
+
 ---
 
 ## 🛠️ Installation
@@ -255,7 +257,7 @@ If you use MetaFed-FL in your research, please cite:
 
 <div align="center">
 
-**[🌐 Website](https://metafed-fl.org)** • **[📖 Docs](https://metafed-fl.readthedocs.io)** • **[💬 Discussions](https://github.com/username/MetaFed-FL/discussions)** • **[🐛 Issues](https://github.com/username/MetaFed-FL/issues)**
+**[🌐 Website](https://metafed.vercel.app)** • **[📖 Docs](https://metafed-fl.readthedocs.io)** • **[💬 Discussions](https://github.com/username/MetaFed-FL/discussions)** • **[🐛 Issues](https://github.com/username/MetaFed-FL/issues)**
 
 *Built with ❤️ for the Federated Learning Community*
 
