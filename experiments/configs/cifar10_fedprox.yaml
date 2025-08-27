@@ -20,7 +20,7 @@ dataset: "cifar10"
 non_iid_alpha: 0.3  # More non-IID for CIFAR-10
 
 # Model settings
-model_name: "simplecnn"
+model_name: "resnet18"
 input_channels: 3  # RGB for CIFAR-10
 num_classes: 10
 

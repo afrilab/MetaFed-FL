@@ -69,11 +69,11 @@ from metafed.core.client import Client
 from metafed.core.server import FederatedServer
 from metafed.core.aggregation import FedAvgAggregator
 from metafed.orchestration.random_orchestrator import RandomOrchestrator
-from metafed.models.simple_cnn import SimpleCNN
+from metafed.models.simple_cnn import LeNet
 from metafed.data.loaders import create_federated_datasets
 
 # Create model
-model = SimpleCNN(num_classes=10, input_channels=1)
+model = LeNet(num_classes=10)
 
 # Load data
 train_datasets, test_loader = create_federated_datasets(

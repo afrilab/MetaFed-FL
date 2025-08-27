@@ -31,7 +31,7 @@ from metafed.green.carbon_tracking import CarbonTracker
 from metafed.utils.logging_config import setup_logging
 from metafed.utils.metrics import compute_accuracy, plot_results
 from metafed.data.loaders import create_federated_datasets
-from metafed.models.simple_cnn import SimpleCNN
+from metafed.models.simple_cnn import ResNet18
 
 
 def parse_arguments() -> argparse.Namespace:
@@ -104,7 +104,7 @@ def setup_device(device_arg: str) -> str:
 
 def create_model() -> nn.Module:
     """Create model for CIFAR-10."""
-    return SimpleCNN(num_classes=10, input_channels=3)
+    return ResNet18(num_classes=10, input_channels=3)
 
 
 def create_clients(

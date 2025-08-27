@@ -102,7 +102,8 @@ python -m experiments.cifar10.run_experiment
 - Sustainable resource management
 
 📈 **Comprehensive Benchmarks**
-- MNIST and CIFAR-10 datasets
+- MNIST with LeNet-5 architecture
+- CIFAR-10 with ResNet-18 architecture
 - Multiple federated learning algorithms
 - Extensive performance metrics
 
