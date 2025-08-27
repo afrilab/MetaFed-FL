@@ -68,13 +68,11 @@ setup(
     extras_require={
         "dev": [
             "pytest>=7.0.0",
-            "pytest-cov>=4.0.0",
             "pytest-xdist>=3.0.0",
             "black>=22.0.0",
             "flake8>=5.0.0",
             "isort>=5.10.0",
             "mypy>=1.0.0",
-            "pre-commit>=2.20.0",
         ],
         "docs": [
             "sphinx>=5.0.0",
@@ -94,13 +92,11 @@ setup(
         ],
         "all": [
             "pytest>=7.0.0",
-            "pytest-cov>=4.0.0",
             "pytest-xdist>=3.0.0",
             "black>=22.0.0",
             "flake8>=5.0.0",
             "isort>=5.10.0",
             "mypy>=1.0.0",
-            "pre-commit>=2.20.0",
             "sphinx>=5.0.0",
             "sphinx-rtd-theme>=1.0.0",
             "sphinx-autodoc-typehints>=1.19.0",

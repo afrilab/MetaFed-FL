@@ -69,7 +69,7 @@ pip install metafed-fl
 
 ```bash
 # Clone the repository
-git clone https://github.com/username/MetaFed-FL.git
+git clone https://github.com/afrilab/MetaFed-FL.git
 cd MetaFed-FL
 
 # Install dependencies
@@ -202,7 +202,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ```bash
 # Clone and setup development environment
-git clone https://github.com/username/MetaFed-FL.git
+git clone https://github.com/afrilab/MetaFed-FL.git
 cd MetaFed-FL
 pip install -e ".[dev]"
 

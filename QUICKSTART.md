@@ -4,7 +4,7 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/username/MetaFed-FL.git
+git clone https://github.com/afrilab/MetaFed-FL.git
 cd MetaFed-FL
 ```
 
