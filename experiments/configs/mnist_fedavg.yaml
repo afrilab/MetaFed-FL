@@ -20,7 +20,7 @@ dataset: "mnist"
 non_iid_alpha: 0.5  # Lower values = more non-IID
 
 # Model settings
-model_name: "lenet"
+model_name: "resnet18"
 input_channels: 1  # 1 for MNIST, 3 for CIFAR-10
 num_classes: 10
 
